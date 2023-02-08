@@ -1,7 +1,7 @@
 {
   "name": "redhost",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "src/app/model/entry-point/entry-point.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -15,6 +15,7 @@
     "@react-navigation/native": "^6.1.3",
     "@react-navigation/native-stack": "^6.9.9",
     "@reduxjs/toolkit": "^1.9.2",
+    "@types/react-dom": "^18.0.10",
     "axios": "^1.3.2",
     "expo": "~47.0.12",
     "expo-status-bar": "~1.4.2",
